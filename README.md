@@ -51,5 +51,5 @@ No PLL is used.
 | 448x448    | 148    | 233    | 476  | 25   | 476 | 400        | 124.5 | [bit](https://drive.google.com/file/d/1Bad1MoeHeb64eP39sMBvUlZ47JWfz_I5/view?usp=share_link)
 | 512x512    | 154    | 232    | 476  | 44   | 476 | 375        | 89.3  | [bit](https://drive.google.com/file/d/1eGg7mMmpcELzJOvZvqNMFv-6XMOwZ5KE/view?usp=share_link)
 
-The models can be downloaded at [this page](https://github.com/HyeongjuKang/accelerator-aware-pruning#object-detecton-cnns)
+The models can be downloaded at Section 2.1 of [this page](https://github.com/HyeongjuKang/accelerator-aware-pruning)
 
