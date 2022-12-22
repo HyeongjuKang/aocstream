@@ -37,16 +37,15 @@ Please cite AAP in your publications if it helps your research:
 
 Will be described soon.
 
-## MobileNet V1 + SSDLiteX
-More pruned models will be uploaded here soon.
+## 1. MobileNet V1 + SSDLiteX
 
-### For KCU116 (Xilinx XCKU5P FPGA) Board
+### 1.1. For KCU116 (Xilinx XCKU5P FPGA) Board
 Not board confirmed
 
-#### Maximum Frequency
+#### 1.1.1. Maximum Frequency
 No PLL is used.
 | Input Size | LUT(K) | Reg(K) | BRAM | URAM | DSP | Clock(MHz) | Bit file |
-|------------|--------|--------|------|------|-----|------------|----------|
+|-----------:|-------:|--------|------|------|-----|------------|----------|
 | 320x320    | 137    | 218    | 454  | 25   | 464 | 428        |   |
 
 
