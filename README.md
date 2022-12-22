@@ -44,23 +44,12 @@ Not board confirmed
 
 #### 1.1.1. Maximum Frequency
 No PLL is used.
-| Input Size | LUT(K) | Reg(K) | BRAM | URAM | DSP | Clock(MHz) | Bit file |
-|-----------:|-------:|--------|------|------|-----|------------|----------|
-| 320x320    | 137    | 218    | 454  | 25   | 464 | 428        |   |
+| Input Size | LUT(K) | Reg(K) | BRAM | URAM | DSP | Clock(MHz) | FPS   | Bit file |
+|-----------:|-------:|-------:|-----:|-----:|----:|-----------:|-------|---------:|
+| 320x320    | 137    | 218    | 454  | 25   | 464 | 428        | 260.9 | [bit](https://drive.google.com/file/d/1rSn0vXBGPj_jLdUWXfZzaobrAh-2iAKt/view?usp=share_link)|
+| 384x384    | 145    | 219    | 454  | 25   | 464 | 349        | 147.7 | [bit](https://drive.google.com/file/d/1BF8wfiuEEXCNpOkSR6QdgJRVJ8KU6vaR/view?usp=share_link)
+| 448x448    | 148    | 233    | 476  | 25   | 476 | 400        | 124.5 | [bit](https://drive.google.com/file/d/1Bad1MoeHeb64eP39sMBvUlZ47JWfz_I5/view?usp=share_link)
+| 512x512    | 154    | 232    | 476  | 44   | 476 | 375        | 89.3  | [bit](https://drive.google.com/file/d/1eGg7mMmpcELzJOvZvqNMFv-6XMOwZ5KE/view?usp=share_link)
 
-
-| CNNs		| g	| p	| top-5 | pruned models |
-|-------	|---|---|------:|--------|
-| AlexNet\*	| 8	| 6	| 80.42%			|[caffemodel](https://drive.google.com/file/d/1hfCuoY8mXXl4noi_fAt-Xx65N2hSAens/view?usp=sharing)
-| VGG 16	| 8	| 6	| 89.91%			|[caffemodel](https://drive.google.com/file/d/19kmLWVdC0dwvByrq-CIXLFG_y8q-2RLy/view?usp=sharing)
-| ResNet-50	| 8	| 6	| 91.14%			|[caffemodel](https://drive.google.com/file/d/1wsnddvFOJzOJQabYanK8mJTfA4qpm_DG/view?usp=sharing)
-| ResNet-152| 8	| 6	| 92.33%			|[caffemodel](https://drive.google.com/file/d/1Ej08Wzo7wQOPbsfpJ4NRWPQGmRpiNxYs/view?usp=sharing)
-| AlexNet\*		| 16| 12| 80.50%		|[caffemodel](https://drive.google.com/file/d/1jbwMnw2oXOv6jNZc-GsOGpc4Dy5MFAC9/view?usp=sharing)
-| VGG 16		| 16| 12| 90.22%		|[caffemodel](https://drive.google.com/file/d/1JHCM1ZOWQ4ELMDYleDUCg35pCHF2EQqa/view?usp=sharing)
-| ResNet-50		| 16| 12| 91.35%		|[caffemodel](https://drive.google.com/file/d/1hk6HK5dor5dsfm-mj_9sT4NPvK8uJ07I/view?usp=sharing)
-| ResNet-152	| 16| 12| 92.48%		|[caffemodel](https://drive.google.com/file/d/1ZMU764yrPbOoFVWR2i4aHneaNdKkVera/view?usp=sharing)
-| SqueezeNet v1	| 16| 10| 80.29%		|[caffemodel](https://drive.google.com/file/d/1cyLBaCzN8n9JFSpFVD9VUzNw9YlhCMiR/view?usp=sharing)
-| SqueezeNet v1	| 16| 12| 78.80%		|[caffemodel](https://drive.google.com/file/d/1lUM4dz5hvV25eMgKUKJooGs5Clp4I4Ua/view?usp=sharing)
-| MobileNet v1	| 16| 10| 89.79%		|[caffemodel](https://drive.google.com/file/d/1dAtA9ao0bqXBobpJu4a5ZwuTVMPIhMx9/view?usp=sharing)
-| MobileNet v1	| 16| 12| 89.06%		|[caffemodel](https://drive.google.com/file/d/1kuFBeAaHRW4PHWUBktj4IJR3uzO6RQMs/view?usp=sharing)
+The models can be downloaded at [this page](https://github.com/HyeongjuKang/accelerator-aware-pruning#object-detecton-cnns)
 
