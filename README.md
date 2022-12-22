@@ -15,22 +15,40 @@ The detailed architecture will be presented as a poster in ISFPGA 2023,
 
 Please cite AAP in your publications if it helps your research:
 
-	@article{hjkang2020aap,
+	@article{aocstream_2021,
 		author = {Kang, Hyeong-Ju},
-		title = {Accelerator-Aware Pruning for Convolutional Neural Networks},
-		journal = {IEEE Transactions on Circuits and Systems for Video Technology},
-		volume = {30},
-		number = {7},
-		pages = {2093--2103},
-		month = {July},
-		year = {2020}
+		title = {AoCStream: All-on-Chip CNN Accelerator With Stream-Based Line-Buffer Architecture},
+		version = {1},
+		date = {2011-12-19},
+		eprinttype = {arxiv},
+		eprintclass = {cs.LG, cs.GT},
+		eprint = {http://arxiv.org/abs/1112.4344v1},
+		url = {http://arxiv.org/abs/1112.4344v1}
+	}
+	@inproceedings{aocstream_isfpga,
+		author = {Kang, Hyeong-Ju},
+		title = {AoCStream: All-on-Chip CNN Accelerator With Stream-Based Line-Buffer Architecture},
+		booktitle = {Proceedings of ACM/SIGDA International Symposium on Field Programmable Gate Arrays},
+		year = {2023},
+		pages = {}
 	}
 
-## Pruned Models
+## Board Interface
+
+Will be described soon.
+
+## MobileNet V1 + SSDLiteX
 More pruned models will be uploaded here soon.
 
-### Classification CNNs
-In the following models, only convolutional layers are pruned.
+### For KCU116 (Xilinx XCKU5P FPGA) Board
+Not board confirmed
+
+#### Maximum Frequency
+No PLL is used.
+| Input Size | LUT(K) | Reg(K) | BRAM | URAM | DSP | Clock(MHz) | Bit file |
+|------------|--------|--------|------|------|-----|------------|----------|
+| 320x320    | 137    | 218    | 454  | 25   | 464 | 428        |   |
+
 
 | CNNs		| g	| p	| top-5 | pruned models |
 |-------	|---|---|------:|--------|
