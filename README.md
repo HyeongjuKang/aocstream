@@ -8,12 +8,10 @@ By [Hyeong-Ju Kang](http://)
 
 AoCStream is a CNN processing accelerator 
 	that implements a whole CNN with on-chip memories (All-on-Chip implementation).
+The detailed architecture will be presented as a poster in ISFPGA 2023,
+	and a full version paper is available on [arXiv](http://arxiv.org/abs/1804.09862).
 
-For more details, please refer to my [arXiv paper](http://arxiv.org/abs/1804.09862)
-	or [the version](https://ieeexplore.ieee.org/document/8693518) published in IEEE Transactions on
-	Circuits and Systems for Video Technology.
-
-## Citing AAP
+## Citing AoCStream
 
 Please cite AAP in your publications if it helps your research:
 
