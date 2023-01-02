@@ -35,15 +35,32 @@ Please cite AAP in your publications if it helps your research:
 
 ## Board Interface
 
-Will be described soon.
+### Host to CNN Processing Board
+
+The host sends image data with the following signals.
+In the figure, t_cyc means the clock cycle time of the CNN processing board.
+
+![Input data timing](timing.png)
+
+The in_data signal consists of 26 bits.
+- in_data[25]: 1 - on the first pixel of a frame, 0 - o.w.
+- in_data[24]: 1 - on the first pixel of a line, 0 - o.w.
+- in_data[23:16]: Red
+- in_data[15:8]: Blue
+- in_data[7:0]: Green
+
+### CNN Processing Board to Host
+
+
+
 
 ## 1. MobileNet V1 + SSDLiteX
 
 ### 1.1. For KCU116 (Xilinx XCKU5P FPGA) Board
 Not board confirmed
 
-#### 1.1.1. Maximum Frequency
-No PLL is used.
+#### 1.1.1. Maximum Frequency (No PLL)
+
 | Input Size | LUT(K) | Reg(K) | BRAM | URAM | DSP | Clock(MHz) | FPS   | Bit file |
 |-----------:|-------:|-------:|-----:|-----:|----:|-----------:|-------|---------:|
 | 320x320    | 137    | 218    | 454  | 25   | 464 | 428        | 260.9 | [bit](https://drive.google.com/file/d/1rSn0vXBGPj_jLdUWXfZzaobrAh-2iAKt/view?usp=share_link)|
