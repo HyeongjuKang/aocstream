@@ -38,9 +38,9 @@ Please cite AAP in your publications if it helps your research:
 ### Host to CNN Processing Board
 
 The host sends image data with the following signals.
-In the figure, t_cyc means the clock cycle time of the CNN processing board.
+In the figure, t_cyc means the clock cycle time of the CNN processing.
 
-![Input data timing](timing.png)
+![Input data timing](timing_in.png)
 
 The in_data signal consists of 26 bits.
 - in_data[25]: 1 - on the first pixel of a frame, 0 - o.w.
@@ -50,9 +50,24 @@ The in_data signal consists of 26 bits.
 - in_data[7:0]: Green
 
 ### CNN Processing Board to Host
+The CNN processing board sends the detection results with the following signals.
+In the figure, t_cyc means the clock cycle time of the CNN processing.
 
+![Output data timing](timing_out.png)
 
+The out_data signal consists of 16 bits.
+| out_data[15:13]	| out_data[12:0]					|
+|-------------------|-----------------------------------|
+| 000				| 7 bit class number (1~81)			|
+| 001				| 8 bit probalility (0.xxxxxxxx)	|
+| 010				| xmin								|
+| 011				| xmax								|
+| 100				| ymin								|
+| 101				| ymax								|
 
+The counting value out_data[15:13] increments 0 to 5
+at the rising edge of in_strb.
+The remainig bits of out_data changes accordingly.
 
 ## 1. MobileNet V1 + SSDLiteX
 
