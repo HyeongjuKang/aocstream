@@ -43,9 +43,9 @@ Not board confirmed
 | Input Size | LUT(K) | Reg(K) | BRAM | URAM | DSP | Clock(MHz) | FPS   | Bit file |
 |-----------:|-------:|-------:|-----:|-----:|----:|-----------:|-------|---------:|
 | 320x320    | 137    | 218    | 454  | 25   | 464 | 428        | 260.9 | [bit](https://drive.google.com/file/d/1rSn0vXBGPj_jLdUWXfZzaobrAh-2iAKt/view?usp=share_link)|
-| 384x384    | 145    | 219    | 454  | 25   | 464 | 349        | 147.7 | [bit](https://drive.google.com/file/d/1BF8wfiuEEXCNpOkSR6QdgJRVJ8KU6vaR/view?usp=share_link)
-| 448x448    | 148    | 233    | 476  | 25   | 476 | 400        | 124.5 | [bit](https://drive.google.com/file/d/1Bad1MoeHeb64eP39sMBvUlZ47JWfz_I5/view?usp=share_link)
-| 512x512    | 154    | 232    | 476  | 44   | 476 | 375        | 89.3  | [bit](https://drive.google.com/file/d/1eGg7mMmpcELzJOvZvqNMFv-6XMOwZ5KE/view?usp=share_link)
+| 384x384    | 145    | 219    | 454  | 25   | 464 | 349        | 147.7 | [bit](https://drive.google.com/file/d/1BF8wfiuEEXCNpOkSR6QdgJRVJ8KU6vaR/view?usp=share_link)|
+| 448x448    | 148    | 233    | 476  | 25   | 476 | 400        | 124.5 | [bit](https://drive.google.com/file/d/1Bad1MoeHeb64eP39sMBvUlZ47JWfz_I5/view?usp=share_link)|
+| 512x512    | 154    | 232    | 476  | 44   | 476 | 375        | 89.3  | [bit](https://drive.google.com/file/d/1eGg7mMmpcELzJOvZvqNMFv-6XMOwZ5KE/view?usp=share_link)|
 
 The models can be downloaded at Section 2.1 of [this page](https://github.com/HyeongjuKang/accelerator-aware-pruning)
 
@@ -56,14 +56,14 @@ Not board confirmed
 
 | Input Size | LUT(K) | Reg(K) | BRAM | URAM | DSP | Clock(MHz) | FPS   | Bit file |
 |-----------:|-------:|-------:|-----:|-----:|----:|-----------:|-------|---------:|
-| 320x320    | 156    | 195    | 445  | -    | 360 | 186        | 100.9 | [bit](https://drive.google.com/file/d/1Wn_WueCIx6RE10rYmN0sHD17AISMcEeI/view?usp=share_link)
+| 320x320    | 156    | 195    | 445  | -    | 360 | 186        | 100.9 | [bit](https://drive.google.com/file/d/1Wn_WueCIx6RE10rYmN0sHD17AISMcEeI/view?usp=share_link)|
 
 #### 1.2.1. 60FPS Target
 Board confirmed with the example host board on Applendix 2.
 
 | Input Size | LUT(K) | Reg(K) | BRAM | URAM | DSP | Clock(MHz) | FPS   | Bit file |
 |-----------:|-------:|-------:|-----:|-----:|----:|-----------:|-------|---------:|
-| 320x320    | 147    | 195    | 445  | -    | 360 | 120        | 65.1  | [bit](https://drive.google.com/file/d/1fDAewZxf9j_4ji8r0PRiLnFDaDz-3VGz/view?usp=share_link)
+| 320x320    | 147    | 195    | 445  | -    | 360 | 120        | 65.1  | [bit](https://drive.google.com/file/d/1fDAewZxf9j_4ji8r0PRiLnFDaDz-3VGz/view?usp=share_link)|
 
 ## Appendix 1. Board Interface
 
@@ -104,6 +104,6 @@ The remainig bits of out_data changes accordingly.
 ## Appendix 2. Example Host Board
 Nexys Video board is used for the example host board.
 The [HDMI project](https://digilent.com/reference/learn/programmable-logic/tutorials/nexys-video-hdmi-demo/start) of Nexy Video was modifed.
-[Zip](https://drive.google.com/file/d/1ZBPjBzdBdqx39g-rahwUH1d2TtX_Gy-3/view?usp=share_link)
-
+- Project: [Zip](https://drive.google.com/file/d/1ZBPjBzdBdqx39g-rahwUH1d2TtX_Gy-3/view?usp=share_link).
+- FMC connection XDC: [XDC](fmc_nexys.xdc)
 
