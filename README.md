@@ -106,6 +106,7 @@ Nexys Video board is used for the example host board.
 The [HDMI project](https://digilent.com/reference/learn/programmable-logic/tutorials/nexys-video-hdmi-demo/start) of Nexy Video was modifed.
 - Download the [project](https://drive.google.com/file/d/1ZBPjBzdBdqx39g-rahwUH1d2TtX_Gy-3/view?usp=share_link). (For your information, [FMC connection XDC](fmc_nexys.xdc))
 - Make a system as follows.
+![Demo system](demo_system.png)
 - Run Nexys Video as instructed in the [HDMI project](https://digilent.com/reference/learn/programmable-logic/tutorials/nexys-video-hdmi-demo/start).
 - Program the CNN processing board with a bit file as in Section 1.2.1.
 
