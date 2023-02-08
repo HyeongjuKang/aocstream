@@ -35,7 +35,7 @@ Please cite AAP in your publications if it helps your research:
 
 ## 1. MobileNet V1 + SSDLiteX
 
-### 1.1. For KCU116 (Xilinx XCKU5P FPGA) Board
+### 1.1. For KCU116 (Xilinx Kintex UltraScale+ XCKU5P) Board
 Not board confirmed
 
 #### 1.1.1. Maximum Frequency (No PLL)
@@ -49,7 +49,7 @@ Not board confirmed
 
 The models can be downloaded at Section 2.1 of [this page](https://github.com/HyeongjuKang/accelerator-aware-pruning)
 
-### 1.2. For NetFPGA 1G CML (Xilinx FPGA) Board
+### 1.2. For NetFPGA 1G CML (Xilinx Kintex-7 325T) Board
 
 #### 1.2.1. Maximum Frequency (No PLL)
 Not board confirmed
